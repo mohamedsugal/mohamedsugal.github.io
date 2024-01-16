@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mohamedsugal.compersonal-site/sitemap.xml
+Sitemap: https://mohamedsugal.com/personal-site/sitemap.xml
