@@ -3,12 +3,6 @@
  ******************************************************************************/
 
 // Typography
-
-body {
-  font-family: "proxima-nova", sans-serif;
-  font-weight: 400;
-}
-
 p,
 h1,
 h2,
@@ -29,12 +23,13 @@ hr {
 }
 
 table {
-  td {
-    font-size: 1rem;
-    font-weight: 400;
-  }
+  td,
   th {
-    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  th {
+    font-weight: bold;
   }
 }
 
@@ -280,7 +275,6 @@ blockquote {
   }
 
   .navbar-nav .nav-item .nav-link {
-    font-weight: 500;
     color: var(--global-text-color);
 
     &:hover {
@@ -290,7 +284,6 @@ blockquote {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: 500;
     color: var(--global-theme-color);
     &:hover {
       color: var(--global-hover-color);
@@ -711,7 +704,7 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: 600;
+        font-weight: bolder;
       }
 
       .author {
@@ -1093,8 +1086,4 @@ nav[data-toggle="toc"] {
 .post-header span.subtitle {
   color: var(--global-theme-color);
   
-}
-
-p.desc {
-  font-weight: 500;
 }
