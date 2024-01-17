@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span class="subtitle">Software Engineer | Systems Researcher</span><br>MS Computer Science Candidate at UT Austin</br>
+subtitle: <span class="subtitle">Software Engineer | Systems Researcher</span><br>MS Computer Science at UT Austin</br>
 
 profile:
   align: right
