@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#' style="text-decoration:none">Software Engineer • Systems Researcher</a>
+subtitle: <span class="subtitle">Software Engineer • Systems Researcher</span>
 
 profile:
   align: right

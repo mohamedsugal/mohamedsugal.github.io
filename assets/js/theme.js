@@ -130,7 +130,7 @@ let transTheme = () => {
 let initTheme = (theme) => {
   if (theme == null || theme == "null") {
     const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
+    if (userPref && (userPref('(prefers-color-scheme: dark)').matches || userPref('(max-width: 768px)').matches)) {
       theme = "dark";
     }
   }
