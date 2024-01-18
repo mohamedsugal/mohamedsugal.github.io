@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Mohamed
-middle_name: A.
+middle_name:
 last_name: Sugal
 email: sugaal@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -123,8 +123,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Blog # blog_name will be displayed in your blog page
+blog_description: Where I share what I'm up to, building, and tinkering about
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -132,7 +132,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -203,7 +203,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages/about.md", "_pages/blog.md", "_pages/news.md"]
 exclude:
   - bin
   - Gemfile
@@ -265,16 +265,16 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: ["afrotech"] # these tags will be displayed on the front page of your blog
+display_categories: ["tech"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Sugal]
+  first_name: [Mohamed, A.]
 
   style: apa
   locale: en
