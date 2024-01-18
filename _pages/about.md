@@ -9,7 +9,6 @@ profile:
   image: msugal.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <a style="font-size:13px" href="https://msugal-site.s3.amazonaws.com/mohamed_sugal_resume.pdf">Current Resume</a>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
