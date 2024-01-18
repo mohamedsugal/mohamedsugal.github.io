@@ -280,7 +280,7 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-
+    font-weight: 400;
     &:hover {
       color: var(--global-hover-color);
     }
@@ -288,6 +288,7 @@ blockquote {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
+    font-weight: 400;
     color: var(--global-theme-color);
     &:hover {
       color: var(--global-hover-color);
@@ -838,6 +839,8 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9063em;
 }
 
 // Transitioning Themes
@@ -1089,4 +1092,8 @@ nav[data-toggle="toc"] {
 
 .post-header span.subtitle {
   color: var(--global-theme-color);
+}
+
+a.highlight {
+  font-weight: 500;
 }

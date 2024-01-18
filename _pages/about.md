@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span class="subtitle">Software Engineer | Systems Researcher</span><br>MS Computer Science at UT Austin</br>
+subtitle: <span class="subtitle">Software Engineer | Life long learner</span><br>MS Computer Science at UT Austin</br>
 
 profile:
   align: right
@@ -17,6 +17,6 @@ social: false # includes social icons at the bottom of the page
 miscellaneous: true
 ---
 
-I'm currently a <span style="font-weight:500">Software Engineer</span> within the [`Ad Ranking Organization`](https://eng.snap.com/machine-learning-snap-ad-ranking) at Snapchat, where I tackle complex challenges associated with the dynamics of the Ad Marketplace, such as auction, pacing, bidding, and forecasting. Concurrently, I am pursuing a part-time Master's degree at the University of Texas at Austin, with a specialization in Computing Systems.
+I'm currently a <span style="font-weight:500">Software Engineer</span> within the <a class="highlight" href="https://eng.snap.com/machine-learning-snap-ad-ranking">Ad Ranking Organization</a> at Snapchat, where I tackle complex challenges associated with the dynamics of the Ad Marketplace, such as auction, pacing, bidding, and forecasting. Concurrently, I am pursuing a part-time Master's degree at the University of Texas at Austin, with a specialization in Computing Systems.
 
 Prior to joining UT Austin, I graduated with a Bachelor' s degree in Computer Science from University of Florida, where I was advised by <span style="font-weight:500">Prof. Cheryl Resch</span>. I developed an [`Educational Platform`](https://github.com/CIS4914) designed specifically for students in East Africa, aiming to enhance their understanding of core Computer Science concepts.
