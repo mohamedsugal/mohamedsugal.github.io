@@ -4,7 +4,9 @@
 
 // Typography
 body {
-  font-family: system-ui, sans-serif;
+  // font-family: system-ui, sans-serif;
+  font-family: "acumin-pro", sans-serif;
+  font-size: 1.0313rem;
 }
 
 p,
@@ -29,11 +31,11 @@ hr {
 table {
   td,
   th {
-    font-size: 1rem;
+    font-size: 1.0313rem;
   }
 
   th {
-    font-weight: bold;
+    font-weight: 600;
   }
 }
 
