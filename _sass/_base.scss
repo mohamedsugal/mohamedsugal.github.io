@@ -4,9 +4,7 @@
 
 // Typography
 body {
-  // font-family: system-ui, sans-serif;
-  font-family: "acumin-pro", sans-serif;
-  font-size: 1.0313rem;
+  font-family: system-ui, sans-serif;
 }
 
 p,
@@ -31,11 +29,11 @@ hr {
 table {
   td,
   th {
-    font-size: 1.0313rem;
+    font-size: 1rem;
   }
 
   th {
-    font-weight: 600;
+    font-weight: 700;
   }
 }
 
@@ -1098,4 +1096,8 @@ nav[data-toggle="toc"] {
 
 a.highlight {
   font-weight: 500;
+}
+
+p.desc {
+  font-weight: 400;
 }
