@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span class="subtitle">Software Engineer | Life long learner</span><br>MS Computer Science at UT Austin</br>
+subtitle: Graduate Student, <a style="text-decoration:none" href="https://www.cs.utexas.edu/">University of Texas at Austin</a>
 
 profile:
   align: right
