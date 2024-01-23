@@ -42,25 +42,25 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h3>
+      <h4>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h3>
+      </h4>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts %}
-      <h3>
+      <h4>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest posts</a>
-      </h3>
+      </h4>
       {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h3>
+      <h4>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
-      </h3>
+      </h4>
       {% include selected_papers.liquid %}
     {% endif %}
 
@@ -73,7 +73,6 @@ layout: default
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
