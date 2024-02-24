@@ -7,7 +7,7 @@ subtitle: Graduate Student, <a style="text-decoration:none" href="https://www.cs
 profile:
   align: right
   image: msugal_25.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <a style="font-size: 0.8125rem;margin-top:-10px" href="https://msugal-site.s3.amazonaws.com/mohamed_sugal_resume.pdf">[Resume/CV]</a>
 news: true # includes a list of news items
