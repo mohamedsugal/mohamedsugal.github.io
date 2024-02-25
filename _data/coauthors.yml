@@ -32,3 +32,23 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"hu":
+  - firstname: ["Bodun"]
+    url: https://www.bodunhu.com/
+
+"xu":
+  - firstname: ["Le"]
+    url: https://lexu.space/
+
+"moon":
+  - firstname: ["Jeongyoon"]
+    url: https://www.linkedin.com/in/jeongyoon-moon-8434731bb/
+
+"neeraja":
+  - firstname: ["J. Yadwadkar"]
+    url: https://sites.utexas.edu/neeraja/
+
+"akella":
+  - firstname: ["Aditya"]
+    url: https://www.cs.utexas.edu/~akella/
