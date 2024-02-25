@@ -2,7 +2,7 @@
 layout: about-custom
 title: about
 permalink: /
-subtitle: > 
+subtitle: >
   <div style="font-weight:400;margin-bottom:10px;color:var(--global-theme-color);">Graduate Student • Life Long Learner</div>
   <p>Master of Science in Computer Science
   <br><a style="text-decoration:none;color:var(--global-text-color);" href="https://www.cs.utexas.edu/">University of Texas at Austin</a></p>
@@ -19,6 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 miscellaneous: true
 ---
+
 <h3>about me</h3>
 I'm currently a <span class="highlight">Software Engineer</span> within the <a class="highlight" href="https://eng.snap.com/machine-learning-snap-ad-ranking">Ad Ranking Organization</a> at Snapchat, where I tackle complex challenges associated with the dynamics of the Ad Marketplace, such as auction, pacing, bidding, and forecasting. Concurrently, I am pursuing a part-time Master's degree at the University of Texas at Austin, with a specialization in Computing Systems.
 

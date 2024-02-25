@@ -4,47 +4,52 @@ layout: default
 <div class="post">
   <header class="post-header">
     {% if page.profile -%}
-    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile.image %}
-      {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+      <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+        {%- if page.profile.image %}
+          {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-      {% if page.profile.image_circular %}
-      {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-      {% else %}
-      {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-      {% endif %}
+          {% if page.profile.image_circular %}
+            {%- assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' -%}
+          {% else %}
+            {%- assign profile_image_class = 'img-fluid z-depth-1 rounded' -%}
+          {% endif %}
 
-      {% include figure.liquid
-      path=profile_image_path
-      class=profile_image_class
-      alt=page.profile.image -%}
-      {% endif -%}
-    </div>
+          {%
+            include figure.liquid
+            path=profile_image_path
+            class=profile_image_class
+            alt=page.profile.image
+          -%}
+        {% endif -%}
+      </div>
     {%- endif %}
 
     <h1 class="post-title">
-      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-      {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+      {% if site.title == 'blank' -%}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {%- else -%}
+        {{ site.title }}
+      {%- endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
     {%- if page.profile.address %}
-    <div class="address">
-      {{ page.profile.address }}
-    </div>
+      <div class="address">
+        {{ page.profile.address }}
+      </div>
     {%- endif %}
 
     {%- if page.social %}
-    <!-- Social -->
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.liquid %}
-      </div>
+      <!-- Social -->
+      <div class="social">
+        <div class="contact-icons">
+          {% include social.liquid %}
+        </div>
 
-      <div class="contact-note">
-        {{ site.contact_note }}
+        <div class="contact-note">
+          {{ site.contact_note }}
+        </div>
       </div>
-
-    </div>
     {%- endif %}
   </header>
 
@@ -78,9 +83,9 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-     <!-- Miscellenous -->
+    <!-- Miscellenous -->
     {% if page.miscellaneous -%}
       {%- include miscellaneous.liquid %}
     {%- endif %}
-
+  </article>
 </div>
