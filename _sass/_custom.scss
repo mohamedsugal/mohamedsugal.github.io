@@ -48,3 +48,11 @@ span.highlight {
 .publications {
   margin-top: 1rem !important;
 }
+
+footer.fixed-bottom {
+  background: var(--global-theme-color);
+}
+
+footer.fixed-bottom a:hover {
+  background: var(--global-footer-link-color);
+}
