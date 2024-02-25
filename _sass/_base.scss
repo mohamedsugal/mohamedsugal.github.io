@@ -3,10 +3,6 @@
  ******************************************************************************/
 
 // Typography
-body {
-  font-family: system-ui, sans-serif;
-}
-
 p,
 h1,
 h2,
@@ -33,7 +29,7 @@ table {
   }
 
   th {
-    font-weight: 700;
+    font-weight: bold;
   }
 }
 
@@ -130,6 +126,22 @@ blockquote {
   }
 }
 
+// Checklist
+
+ul.task-list {
+  list-style-type: none; /* Remove bullets from all levels */
+}
+
+ul.task-list > li ul {
+  /* Nested lists within .task-list */
+  padding-inline-start: 1.5rem;
+}
+
+ul.task-list input[type="checkbox"] {
+  margin: 0.275rem 0.5rem 0.5rem -1rem;
+  vertical-align: middle;
+}
+
 // Math
 
 .equation {
@@ -171,7 +183,6 @@ blockquote {
 }
 
 // Citation
-
 .citation,
 .citation-number {
   color: var(--global-theme-color);
@@ -182,13 +193,9 @@ blockquote {
 .profile {
   width: 100%;
 
-  img {
-    width: 50vw;
-  }
-
   .more-info {
     margin-bottom: 5px;
-    margin-top: -5px;
+    margin-top: 5px;
     font-family: monospace;
 
     p {
@@ -280,7 +287,7 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    font-weight: 400;
+
     &:hover {
       color: var(--global-hover-color);
     }
@@ -288,8 +295,9 @@ blockquote {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: 400;
+    font-weight: bolder;
     color: var(--global-theme-color);
+
     &:hover {
       color: var(--global-hover-color);
     }
@@ -372,7 +380,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 2.5rem;
+    font-size: 4rem;
 
     a {
       i::before {
@@ -432,6 +440,7 @@ footer.fixed-bottom {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
+    text-align: center;
   }
 
   a {
@@ -449,6 +458,10 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+
+  .container {
+    text-align: center;
+  }
 }
 
 // CV
@@ -839,8 +852,6 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
-  font-family: "Roboto Mono", monospace;
-  font-size: 0.9063em;
 }
 
 // Transitioning Themes
@@ -1090,14 +1101,18 @@ nav[data-toggle="toc"] {
   z-index: 1;
 }
 
-.post-header span.subtitle {
-  color: var(--global-theme-color);
+.echarts {
+  height: 400px;
+  width: 100%;
 }
 
-a.highlight {
-  font-weight: 500;
+.map {
+  height: 400px;
+  width: 100%;
 }
 
-p.desc {
-  font-weight: 400;
+swiper-container {
+  --swiper-navigation-color: var(--global-theme-color);
+  --swiper-pagination-color: var(--global-theme-color);
+  --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
