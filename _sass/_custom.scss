@@ -56,3 +56,43 @@ footer.fixed-bottom {
 footer.fixed-bottom a:hover {
   background: var(--global-footer-link-color);
 }
+
+// <--------- Calendar style start --------->
+.calendar-day {
+  background-color: var(--global-theme-color);
+  color: var(--global-card-bg-color);
+  border-top-left-radius: 0.125rem;
+  border-top-right-radius: 0.125rem;
+}
+
+.calendar-year {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #e6e6e6;
+  border-bottom-left-radius: 0.125rem;
+  border-bottom-right-radius: 0.125rem;
+  color: var(--global-calendar-text-color);
+}
+
+.calendar-day,
+.calendar-year {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-align: center;
+  width: 51px;
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.16),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+th.calendar-head {
+  width: 5em;
+}
+
+table.table-sm th,
+table.table-sm td {
+  padding-top: 0.7em !important;
+  padding-bottom: 0.7em !important;
+}
+
+// <--------- Calendar style end --------->
