@@ -3,7 +3,7 @@ layout: about-custom
 title: about
 permalink: /
 subtitle: >
-  <div style="font-weight:400;margin-bottom:10px;color:var(--global-theme-color);">Infra & Distributed Systems</div>
+  <div style="font-weight:400;margin-bottom:10px;color:var(--global-theme-color);">Infrastructure & Distributed Systems</div>
   <p>BS in Computer Science
   <br><a style="text-decoration:none;color:var(--global-text-color);" href="https://www.ufl.edu/">University of Florida</a></p>
 
@@ -21,9 +21,9 @@ miscellaneous: true
 ---
 
 <h3>About me</h3>
-I'm currently a <span class="highlight">Software Engineer</span> within the <a class="highlight" href="https://eng.snap.com/machine-learning-snap-ad-ranking">Ad Ranking Organization</a> at Snapchat, where I tackle complex challenges associated with the dynamics of the Ad Marketplace, such as auction, pacing, bidding, and forecasting. Concurrently, I am self learning <a class="highlight" href="https://eng.snap.com/machine-learning-snap-ad-ranking">Distribured Systems</a> by MIT online part-time.
+I'm currently a <span class="highlight">Software Engineer</span> within the <a class="highlight" href="https://eng.snap.com/machine-learning-snap-ad-ranking">Ad Ranking Organization</a> at Snapchat, where I tackle complex challenges associated with the dynamics of the Ad Marketplace such as Ad-insertion, ad-load, responsible monetization, and forecasting. Concurrently, I am self learning <span style="font-style: italic;">(part-time)</span> <a class="highlight" href="https://pdos.csail.mit.edu/6.824/general.html">Distribured Systems</a> by professors Frans Kaashoek & Robert Morris at MIT and <a class="highlight" href="https://www.udemy.com/course/java-multithreading-concurrency-performance-optimization">Java Multithreading, Concurrency & Performance Optimization</a> by Michael Pogrebinsky on Udemy.
 
-Prior to joining Snapchat, I graduated with a Bachelor' s degree in Computer Science from University of Florida, where I was advised by <span class="highlight">Prof. Cheryl Resch</span>. I developed an <a class="highlight" href="https://github.com/CIS4914">Educational Platform</a> designed specifically for students in East Africa, aiming to enhance their understanding of core Computer Science concepts.
+Prior to joining Snapchat, I graduated with a Bachelor' s degree in Computer Science from University of Florida, where I was advised by <a class="highlight" href="https://www.eng.ufl.edu/eed/faculty/name/cheryl-resch/">Prof. Cheryl Resch</a>. I developed an [`Educational Platform`](https://github.com/CIS4914) designed specifically for students in East Africa, aiming to enhance their understanding of core Computer Science concepts.
 
 <div style="margin-bottom:5px">Books I'm currently reading:</div>
 <ul>
