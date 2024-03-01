@@ -3,9 +3,9 @@ layout: about-custom
 title: about
 permalink: /
 subtitle: >
-  <div style="font-weight:400;margin-bottom:10px;color:var(--global-theme-color);">Graduate Student • Life Long Learner</div>
-  <p>Master of Science in Computer Science
-  <br><a style="text-decoration:none;color:var(--global-text-color);" href="https://www.cs.utexas.edu/">University of Texas at Austin</a></p>
+  <div style="font-weight:400;margin-bottom:10px;color:var(--global-theme-color);">Infra & Distributed Systems</div>
+  <p>BS in Computer Science
+  <br><a style="text-decoration:none;color:var(--global-text-color);" href="https://www.ufl.edu/">University of Florida</a></p>
 
 profile:
   align: right
@@ -21,14 +21,13 @@ miscellaneous: true
 ---
 
 <h3>About me</h3>
-I'm currently a <span class="highlight">Software Engineer</span> within the <a class="highlight" href="https://eng.snap.com/machine-learning-snap-ad-ranking">Ad Ranking Organization</a> at Snapchat, where I tackle complex challenges associated with the dynamics of the Ad Marketplace, such as auction, pacing, bidding, and forecasting. Concurrently, I am pursuing a part-time Master's degree at the University of Texas at Austin, with a specialization in Computing Systems.
+I'm currently a <span class="highlight">Software Engineer</span> within the <a class="highlight" href="https://eng.snap.com/machine-learning-snap-ad-ranking">Ad Ranking Organization</a> at Snapchat, where I tackle complex challenges associated with the dynamics of the Ad Marketplace, such as auction, pacing, bidding, and forecasting. Concurrently, I am self learning <a class="highlight" href="https://eng.snap.com/machine-learning-snap-ad-ranking">Distribured Systems</a> by MIT online part-time.
 
-Prior to joining UT Austin, I graduated with a Bachelor' s degree in Computer Science from University of Florida, where I was advised by <span class="highlight">Prof. Cheryl Resch</span>. I developed an <a class="highlight" href="https://github.com/CIS4914">Educational Platform</a> designed specifically for students in East Africa, aiming to enhance their understanding of core Computer Science concepts.
+Prior to joining Snapchat, I graduated with a Bachelor' s degree in Computer Science from University of Florida, where I was advised by <span class="highlight">Prof. Cheryl Resch</span>. I developed an <a class="highlight" href="https://github.com/CIS4914">Educational Platform</a> designed specifically for students in East Africa, aiming to enhance their understanding of core Computer Science concepts.
 
-<div style="margin-bottom:5px">Research interest areas:</div>
+<div style="margin-bottom:5px">Books I'm currently reading:</div>
 <ul>
-  <li>Distributed Systems</li>
-  <li>Formal Methods</li>
-  <li>Systems for Machine Learning</li>
-  <li>Security & Privacy</li>
+  <li>System Design Interview by Alex Xu</li>
+  <li>Designing Data-Intensive Applications by Martin Kleppmann</li>
+  <li>Designing Machine Learning Systems by Chip Huyen</li>
 </ul>
